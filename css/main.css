@@ -261,5 +261,189 @@ li {
     height: 489px;
 }
 
+.room {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.room__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room__content_title_block {
+    width: 420px;
+}
+
+.room__text_addition {
+    font-size: 16px;
+    font-weight: 500;
+    color: #424F7B;
+    line-height: 150%;
+}
+
+.room__content_title {
+    margin-top: 12px;
+}
+
+.room__content_text {
+    margin-top: 24px;
+    width: 384px;
+}
+
+.room__content_block_btn {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.room__content_btn {
+    display: block;
+    width: 152px;
+    height: 51px;
+    padding: 16px 32px;
+}
+
+.room__content_link_addition {
+    color: #0E1734;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 24px;
+}
+
+.room__content_item {
+    width: 588px;
+    height: 100px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room__content_item_title {
+    padding: 32px 0px 32px 36px;
+    font-size: 24px;
+}
+
+.room__content_icon__stroke {
+    width: 40px;
+    height: 40px;
+    background: #FFECE2;
+    border-radius: 25px;
+    margin-right: 36px;
+    cursor: pointer;
+    background-image: url(../img/Arrow_Down.svg);
+    background-size: cover;
+}
+
+.testimoni {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimoni__content {
+        text-align: center;
+}
+
+.testimoni__content_title {
+    margin-bottom: 60px;
+}
+
+.testimoni__content_img {
+    background-image: url(../img/testimoni/woman.png);
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.testimoni__content_text {
+    width: 794px;
+    margin: 44px 170px;
+}
+
+.testimoni__content_name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #192252;
+}
+
+.footer {
+    background: #0B265A;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container_one {
+    width: 178px;
+}
+
+.footer__logo_link  {
+    color: #FFF;
+}
+
+.footer__text {
+    margin-top: 13px;
+    font-size: 16px;
+    color: #D9DBDE;
+}
+
+.footer__social_link {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__twitter_logo {
+    background-image: url(../img/footer/twitter.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__instagram_logo {
+    background-image: url(../img/footer/instagram_logo.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__facebook_logo {
+    background-image: url(../img/footer/facebook.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__container_two {
+    display: flex;
+    justify-content: space-between;
+    width: 556px;
+}
+
+.footer__list_title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.footer__list_item {
+    margin-top: 24px;
+}
+
+.footer__list_link {
+    font-size: 16px;
+    color: #D9DBDE;
+}
+
 
 
