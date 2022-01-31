@@ -17,7 +17,7 @@ h1 {
     font-size: 48px;
 }
 
-h2 { 
+h2, h3 { 
     font-size: 36px;
 }
 
@@ -109,5 +109,157 @@ li {
     background-image: url(../img/header/header_img.png);
     background-size: cover;
     width: 588px;
-    height: 635px;
+    height: 685px;
 }
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about__content_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__content_block {
+    width: 615px;
+}
+
+.about__content_img {
+    background-image: url(../img/about/about.png);
+    background-size: cover;
+    width: 384px;
+    height: 576px;
+}
+
+.about__content_text {
+    margin-top: 24px;
+    width: 566px;
+}
+
+.about__content_btn {
+    display: block;
+    padding: 16px 32px;
+    width: 156px;
+    margin-top: 30px;
+}
+
+.benefit {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.benefit__content_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefit__text_block {
+    width: 584px;
+}
+
+.benefit__content_text {
+    margin-top: 24px;
+}
+
+.benefit_img_01 {
+    background-image: url(../img/benefit/benefit_01.png);
+    background-size: cover;
+    width: 384px;
+    height: 384px;
+}
+
+.benefit_img_02 {
+    background-image: url(../img/benefit/benefit_02.png);
+    background-size: cover;
+    width: 384px;
+    height: 384px;
+}
+
+.benefit__content_block_two {
+    margin-top: 30px;
+}
+
+.reservation {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.reservation__title_block {
+    align-items: center;
+    text-align: center;
+    width: 588px;
+    margin: 0 auto;
+}
+
+.reservation__text {
+    margin-top: 24px;
+}
+
+.reservation__btn {
+    display: block;
+    padding: 16px 32px;
+    width: 170px;
+    margin: 30px 200px;
+}
+
+.reservation__content_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.reservation__content_item {
+    width: 384px;
+}
+
+.reservation__content_title {
+    color: #000;
+    margin-top: 30px;
+}
+
+.reservation__content_text {
+    margin-top: 16px;
+    
+}
+
+.reservation__link {
+    margin-top: 30px;
+    color: #424F7B;
+    display: flex;
+}
+
+.icon_arrow_right {
+    background-image: url(../img/Arrow_Right.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-left: 13px;
+}
+
+.reservation__content_img_01 {
+    background-image: url(../img/reservation/img_01.png);
+    background-size: cover;
+    width: 384px;
+    height: 489px;
+}
+
+.reservation__content_img_02 {
+    background-image: url(../img/reservation/img_02.png);
+    background-size: cover;
+    width: 384px;
+    height: 489px;
+}
+
+.reservation__content_img_03 {
+    background-image: url(../img/reservation/img_03.png);
+    background-size: cover;
+    width: 384px;
+    height: 489px;
+}
+
+
+
